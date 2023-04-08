@@ -1,5 +1,3 @@
-## Ex no: 6
-## Date: 03/05/2022
 # <p align="center">Implementation-of-filters
 ## Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
