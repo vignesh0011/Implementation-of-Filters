@@ -5,46 +5,26 @@ To implement filters for smoothing and sharpening the images in the spatial doma
 ## Software Required:
 Anaconda - Python 3.7
 
-## Algorithm:
-### Step1
-Import the necessary modules.
-
-### Step2:
-For performing smoothing operation on a image.
-1. Average filter
-```python
-kernel=np.ones((11,11),np.float32)/121
-image3=cv2.filter2D(image2,-1,kernel)
-```
-2. Weighted average filter
-```python
-kernel1=np.array([[1,2,1],[2,4,2],[1,2,1]])/16
-image3=cv2.filter2D(image2,-1,kernel1)
-```
-3. Gaussian Blur
-```python
-gaussian_blur=cv2.GaussianBlur(image2,(33,33),0,0)
-```
-4. Median filter
-```python
-median=cv2.medianBlur(image2,13)
-```
-
-### Step3:
-For performing sharpening on a image.
-1. Laplacian Kernel
-```python
-kernel2=np.array([[-1,-1,-1],[2,-2,1],[2,1,-1]])
-image3=cv2.filter2D(image2,-1,kernel2)
-```
-2. Laplacian Operator
-```python
-laplacian=cv2.Laplacian(image2,cv2.CV_64F)
-```
-
-### Step4:
+## ALGORITHM:
+### Step 1:
+Import the necessary modules. 
+### Step 2:
+Perform smoothing operation on a image. 
+- Average filter
+- Weighted average filter
+- Gaussian Blur 
+- Median filter
+### Step 3:
+Perform sharpening on a image.
+- Laplacian Kernel
+- Laplacian Operator
+### Step 4:
 Display all the images with their respective filters.
 
+<br/>
+<br/>
+<br/>
+  
 ## Program:
 ### Developed By   : M Vignesh
 ### Register Number: 212220233002
