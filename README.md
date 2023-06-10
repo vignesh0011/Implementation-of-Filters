@@ -1,5 +1,5 @@
 ## EX.NO: 06<br>
-## DATE: 
+## DATE: 06.04.2023
 # <p align="center">Implementation-of-filters
 ## Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
